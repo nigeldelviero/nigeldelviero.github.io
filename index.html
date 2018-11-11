@@ -1,336 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Appster - Free Bootstrap 4 App Template</title>
-        <meta name="description" content="Love appster." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Bootstrap 4-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!--icons-->
-        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-    <body>
-        <!--header-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary sticky-navigation">
-            <a class="navbar-brand" href="#"><strong>APPSTER</strong></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#features">Features <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#download">Download</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Template Atlas</title>
+    <meta name="description" content="Free bootstrap template Atlas">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">Get Early Access</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+            	A New Way<br>
+            	To Start Business
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Lorem ipsum dolor sit amet, id nec enim autem oblique, ei dico mentitum duo.
+                <br> Illum iusto laoreet his te. Lorem partiendo mel ex. Ad vitae admodum voluptatum per.
+            </p>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        </div>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">Smartest protection for your site</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-1.jpg" alt="Anti-spam" class="mx-auto">
+                <h4>Anti-spam</h4>
+                <p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-2.jpg" alt="Phishing Detect" class="mx-auto">
+                <h4>Phishing Detect</h4>
+                <p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
+                <h4>Smart Scan</h4>
+                <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">Take a look inside</h2>
+                    <p class="my-4">Te iisque labitur eos, nec sale argumentum scribentur no,
+                        <br> augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="img/feature-1.png" alt="Take a look inside" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Safe and reliable</h2>
+                    <p class="my-4">
+                        Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
+                        <br> eum et oratio disputationi. Falli lobortis his ad
+                    </p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/feature-2.png" alt="Safe and reliable" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- price table -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3">Check our pricing</h2>
+        <div class="row">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">STARTUP</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 5 Documents</li>
+                    <li>Up to 3 Reviews</li>
+                    <li>5 team Members</li>
+                    <li>Limited Support</li>
                 </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a>
             </div>
-        </nav>
-
-        <!--main section-->
-        <section class="bg-texture hero pt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-white wow fadeIn">
-                        <div class="mt-5 pt-5 d-none d-md-block"></div>
-                        <h1>Appster</h1>
-                        <h2>A beautiful <span class="text-orange">screen capturing</span> app that you 
-                            can trust on</h2>
-                        <p class="mt-4 lead">
-                            Appster is a free Bootstrap 4 app landing page designed by Wired Dots and released under 
-                            the Creative Commons 4.0.
-                        </p>
-                        <p class="mt-5">
-                            <a href="#" class="mr-2"><img src="img/google-play.png" class="store-img"/></a>
-                            <a href="#"><img src="img/apple_store.png" class="store-img"/> </a>
-                        </p>
-                    </div>
-                    <div class="col-md-6 pt-5 d-none d-md-block wow fadeInRight">
-                        <img class="img-fluid mx-auto d-block" src="img/shot-3.png"/>
-                    </div>
-                </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
+                <h4 class="my-4">PREMIUM</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">10</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 15 Documents</li>
+                    <li>Up to 10 Reviews</li>
+                    <li>25 team Members</li>
+                    <li>Limited Support</li>
+                </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a>
             </div>
-        </section>
-
-        <!--main features-->
-        <section class="bg-white" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8 mx-auto text-center wow fadeIn">
-                        <h2 class="text-primary">Why Choose Appster?</h2>
-                        <p class="lead">
-                            Appster is more than just a screen capturing app.
-                        </p>
-                    </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">PROFESSIONAL</h4>
+                <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">30</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Unlimited Documents</li>
+                    <li>Unlimited Reviews</li>
+                    <li>Unlimited Members</li>
+                    <li>Unlimited Support</li>
+                </ul>
+                <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a>
+            </div>
+        </div>
+    </div>
+    <!-- client -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-1.png" class="mx-auto d-block">
                 </div>
-                <div class="row d-md-flex mt-4 text-center">
-                    <div class="col-sm-6 col-md-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <div class="icon-box">
-                                    <i class="material-icons dp36">camera_enhance</i>
-                                </div>
-                                <h5 class="card-title text-primary pt-5">Capture Anytime</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <div class="icon-box">
-                                    <i class="material-icons dp36">crop</i>
-                                </div>
-                                <h5 class="card-title text-primary pt-5">Unlimited Crops</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <div class="icon-box">
-                                    <i class="material-icons dp36">cloud_upload</i>
-                                </div>
-                                <h5 class="card-title text-primary pt-5">Upload at Cloud</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <div class="icon-box">
-                                    <i class="material-icons dp36">invert_colors</i>
-                                </div>
-                                <h5 class="card-title text-primary pt-5">Beautiful Design</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-2.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-3.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-4.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-5.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-6.png" class="mx-auto d-block">
                 </div>
             </div>
-        </section>
-
-        <!--extra features-->
-        <section class="bg-dark text-white" id="extra-features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-12 text-center wow fadeIn">
-                        <h2 class="text-orange">Features & Details</h2>
-                        <p class="lead">
-                            Built for creative people. Made for high performance.
-                        </p>
-                    </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contact Us</h2>
+                    <p class="my-4">
+                        Te iisque labitur eos, nec sale argumentum scribentur,
+                        <br> augue disputando in vim. Erat fugit sit at, ius lorem.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : company_email@com</li>
+                        <li>Phone : 361-688-5824</li>
+                        <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
+                    </ul>
                 </div>
-                <div class="row d-md-flex mt-5">
-                    <div class="col-sm-4 wow fadeIn">
-                        <h5 class="text-orange">Great Support</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <h5 class="text-orange pt-5">Clean Code</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <h5 class="text-orange pt-5">Unique Design</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                    </div>
-                    <div class="col-sm-4 wow fadeIn">
-                        <img class="img-fluid mx-auto d-block pb-3" src="img/shot-3.png" alt="Gallery">
-                    </div>
-                    <div class="col-sm-4 wow fadeIn">
-                        <h5 class="text-orange">Unlimited Features</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <h5 class="text-orange pt-5">High Resolution</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <h5 class="text-orange pt-5">Modern Design</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--pricing-->
-        <section class="bg-alt" id="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8 mx-auto text-center">
-                        <h2 class="text-primary">Pricing</h2>
-                        <p class="lead">
-                            Our no-nonsense pricing.
-                        </p>
-                    </div>
-                </div>
-                <div class="row d-md-flex mt-4 text-center">
-                    <div class="col-md-4 mt-2 wow fadeIn">
-                        <div class="card card-outline-primary">
-                            <div class="card-body">
-                                <h5 class="card-title pt-4 text-orange">Basic</h5>
-                                <h3 class="card-title text-primary pt-4">FREE</h3>
-                                <p class="card-text text-muted pb-3 border-bottom">per month</p>
-                                <ul class="list-unstyled pricing-list">
-                                    <li>Free setup</li>
-                                    <li>100MB storage</li>
-                                    <li>1GB bandwidth</li>
-                                    <li>Basic support</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary btn-radius">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-2 wow fadeIn">
-                        <div class="card card-outline-primary bg-primary text-white">
-                            <div class="card-body">
-                                <h5 class="card-title pt-4 text-white">Standard</h5>
-                                <h3 class="card-title text-orange pt-4"><sup>$</sup> 9.99</h3>
-                                <p class="card-text text-muted pb-3 border-bottom">per month</p>
-                                <ul class="list-unstyled pricing-list">
-                                    <li>Free setup</li>
-                                    <li>5GB storage</li>
-                                    <li>Unlimited bandwidth</li>
-                                    <li>Priority support</li>
-                                </ul>
-                                <a href="#" class="btn btn-white btn-radius">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-2 wow fadeIn">
-                        <div class="card card-outline-primary">
-                            <div class="card-body">
-                                <h5 class="card-title pt-4 text-orange">Advanced</h5>
-                                <h3 class="card-title text-primary pt-4"><sup>$</sup> 19.99</h3>
-                                <p class="card-text text-muted pb-3 border-bottom">per month</p>
-                                <ul class="list-unstyled pricing-list">
-                                    <li>Free setup</li>
-                                    <li>Unlimited storage</li>
-                                    <li>Unlimited bandwidth</li>
-                                    <li>24/7 support</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary btn-radius">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <form>
+                    	<div class="row">
+	                        <div class="form-group col-md-6">
+	                            <label for="name">Your Name</label>
+	                            <input type="name" class="form-control" id="name">
+	                        </div>
+	                        <div class="form-group col-md-6">
+	                            <label for="Email">Your Email</label>
+	                            <input type="email" class="form-control" id="Email">
+	                        </div>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="message">Message</label>
+	                        <textarea class="form-control" id="message" rows="3"></textarea>
+	                    </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <!--download-->
-        <section class="bg-orange" id="download">
-            <div class="container">
-                <div class="row d-md-flex text-center wow fadeIn">
-                    <div class="col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-12">
-                        <h2 class="text-primary">Download & get started today!</h2>
-                        <p class="mt-4 lead">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet.
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet.
-                        </p>
-                        <p class="mt-5">
-                            <a href="#" class="mr-2"><img src="img/google-play.png" class="store-img"/></a>
-                            <a href="#"><img src="img/apple_store.png" class="store-img"/> </a>
-                        </p>
-                    </div>
+	<!-- copyright -->
+	<div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    Copyright © 2018 Chen, Yi-Ya.
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
 
-        <!--team-->
-        <section class="bg-white" id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8 mx-auto text-center">
-                        <h2 class="text-primary">Our Team</h2>
-                        <p class="lead">
-                            We're a team of three people.
-                        </p>
-                    </div>
-                </div>
-                <div class="row d-md-flex mt-4 text-center">
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-1.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">John Deo</h5>
-                                <p class="card-text">App Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-2.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">Brandon Lee</h5>
-                                <p class="card-text">Ionic Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-3.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">Inza Fererri</h5>
-                                <p class="card-text">Android Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--contact-->
-        <section class="bg-texture-collage p-0" id="contact">
-            <div class="container">
-                <div class="row d-md-flex text-white text-center wow fadeIn">
-                    <div class="col-md-4 p-5">
-                        <p><em class="material-icons dp36">phone</em></p>
-                        <p class="lead">+49 5456 87595</p>
-                    </div>
-                    <div class="col-md-4 p-5">
-                        <p><em class="material-icons dp36">email</em></p>
-                        <p class="lead">appster.support@gmail.com</p>
-                    </div>
-                    <div class="col-md-4 p-5">
-                        <p><em class="material-icons dp36">location_on</em></p>
-                        <p class="lead">Berlin, Germany</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--footer-->
-        <section class="bg-dark pt-5" id="connect">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-12 text-center wow fadeIn">
-                        <h2 class="hero-heading text-muted">Appster</h2>
-                        <p class="mt-4">
-                            <a href="https://twitter.com/" target="_blank"><em class="ion-social-twitter text-twitter-alt icon-sm mr-3"></em></a>
-                            <a href="https://facebook.com/" target="_blank"><em class="ion-social-github text-facebook-alt icon-sm mr-3"></em></a>
-                            <a href="https://www.linkedin.com/" target="_blank"><em class="ion-social-linkedin text-linkedin-alt icon-sm mr-3"></em></a>
-                        </p>
-                        <p class="pt-2 text-muted">
-                            &copy; 2017 Appster Theme. A free Bootstrap 4 theme by 
-                            <a href="https://wireddots.com">Wired Dots</a>. Developed by <a href="https://twitter.com/attacomsian">@attacomsian</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
 </html>
